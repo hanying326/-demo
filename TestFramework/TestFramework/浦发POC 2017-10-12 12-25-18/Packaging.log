@@ -1,0 +1,231 @@
+2017-10-12 04:25:05 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fe3b9095eb0; archive(resolved)='<IDEArchive: 0x7fe3b82714f0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team(resolved)='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fe3b9095eb0; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fe3b9095a80; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionContext: 0x7fe3b88fa960; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionContext: 0x7fe3b826fba0; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionContext: 0x7fe3b9108020; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionContext: 0x7fe3b8ef9840; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionContext: 0x7fe3b80d78c0; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionContext: 0x7fe3b8f02640; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionContext: 0x7fe3b711cf00; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='<IDEProvisioningBasicTeam 0x7fe3b73f65d0: teamID: YRAGDN28AR, teamName: Xiaoi Robot CO., LTD.>'>
+	<IDEDistributionContext: 0x7fe3b8d9dfa0; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe3c9d11820>', team='(null)'>
+	<IDEDistributionContext: 0x7fe3d3e873e0; archive = '<IDEArchive: 0x7fe3b82714f0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fe3b9095eb0>
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionCopyItemStep
+2017-10-12 04:25:05 +0000  Running /usr/bin/ditto '-V' '/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app'
+2017-10-12 04:25:05 +0000  >>> Copying /Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app 
+2017-10-12 04:25:05 +0000  copying file ./_CodeSignature/CodeResources ... 
+2017-10-12 04:25:05 +0000  7635 bytes for ./_CodeSignature/CodeResources
+2017-10-12 04:25:05 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2017-10-12 04:25:05 +0000  364 bytes for ./archived-expanded-entitlements.xcent
+2017-10-12 04:25:05 +0000  copying file ./Assets.car ... 
+2017-10-12 04:25:05 +0000  34152 bytes for ./Assets.car
+2017-10-12 04:25:05 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2017-10-12 04:25:05 +0000  1791 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2017-10-12 04:25:05 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-10-12 04:25:05 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2017-10-12 04:25:05 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2017-10-12 04:25:05 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2017-10-12 04:25:05 +0000  4657 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2017-10-12 04:25:05 +0000  4778 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2017-10-12 04:25:05 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2017-10-12 04:25:05 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2017-10-12 04:25:05 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
+2017-10-12 04:25:05 +0000  964 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+2017-10-12 04:25:05 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2017-10-12 04:25:05 +0000  964 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2017-10-12 04:25:05 +0000  copying file ./embedded.mobileprovision ... 
+2017-10-12 04:25:05 +0000  22038 bytes for ./embedded.mobileprovision
+2017-10-12 04:25:05 +0000  copying file ./Frameworks/SocketRocket.framework/_CodeSignature/CodeResources ... 
+2017-10-12 04:25:05 +0000  2202 bytes for ./Frameworks/SocketRocket.framework/_CodeSignature/CodeResources
+2017-10-12 04:25:05 +0000  copying file ./Frameworks/SocketRocket.framework/Info.plist ... 
+2017-10-12 04:25:05 +0000  745 bytes for ./Frameworks/SocketRocket.framework/Info.plist
+2017-10-12 04:25:05 +0000  copying file ./Frameworks/SocketRocket.framework/SocketRocket ... 
+2017-10-12 04:25:05 +0000  816512 bytes for ./Frameworks/SocketRocket.framework/SocketRocket
+2017-10-12 04:25:05 +0000  copying file ./icon.jpeg ... 
+2017-10-12 04:25:05 +0000  44297 bytes for ./icon.jpeg
+2017-10-12 04:25:05 +0000  copying file ./Info.plist ... 
+2017-10-12 04:25:05 +0000  1286 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2017-10-12 04:25:05 +0000  8 bytes for ./PkgInfo
+2017-10-12 04:25:05 +0000  copying file ./TestFramework ... 
+2017-10-12 04:25:05 +0000  281472 bytes for ./TestFramework
+2017-10-12 04:25:05 +0000  /usr/bin/ditto exited with 0
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-10-12 04:25:05 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe3b8c5edc0 'org.cocoapods.SocketRocket' '<DVTFilePath:0x7fe3b63a0810:'/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app/Frameworks/SocketRocket.framework'>'>
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionItemRemovalStep
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-10-12 04:25:05 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-10-12 04:25:05 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionSymbolsStep
+2017-10-12 04:25:05 +0000  Processing symbols for SocketRocket.framework
+2017-10-12 04:25:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app/Frameworks/SocketRocket.framework' '--link-dest' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app/Frameworks' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV'
+2017-10-12 04:25:05 +0000  building file list ... 
+2017-10-12 04:25:05 +0000   0 files...2017-10-12 04:25:05 +0000  5 files to consider
+2017-10-12 04:25:05 +0000  SocketRocket.framework/
+2017-10-12 04:25:05 +0000  SocketRocket.framework/_CodeSignature/
+2017-10-12 04:25:05 +0000  
+2017-10-12 04:25:05 +0000  sent 238 bytes  received 32 bytes  540.00 bytes/sec
+total size is 321.99K  speedup is 1221.18
+2017-10-12 04:25:05 +0000  /usr/bin/rsync exited with 0
+2017-10-12 04:25:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/dSYMs/' '--link-dest' '/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/dSYMs/' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV'
+2017-10-12 04:25:05 +0000  building file list ... 
+2017-10-12 04:25:05 +0000   0 files...2017-10-12 04:25:05 +0000  13 files to consider
+2017-10-12 04:25:05 +0000  ./
+2017-10-12 04:25:05 +0000  SocketRocket.framework.dSYM/
+2017-10-12 04:25:05 +0000  SocketRocket.framework.dSYM/Contents/
+SocketRocket.framework.dSYM/Contents/Resources/
+SocketRocket.framework.dSYM/Contents/Resources/DWARF/
+TestFramework.app.dSYM/
+TestFramework.app.dSYM/Contents/
+TestFramework.app.dSYM/Contents/Resources/
+TestFramework.app.dSYM/Contents/Resources/DWARF/
+2017-10-12 04:25:05 +0000  
+2017-10-12 04:25:05 +0000  sent 465 bytes  received 74 bytes  1.05K bytes/sec
+total size is 3.52M  speedup is 6851.07
+2017-10-12 04:25:05 +0000  /usr/bin/rsync exited with 0
+2017-10-12 04:25:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Symbols' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/SocketRocket.framework.dSYM/Contents/Resources/Dwarf/SocketRocket'
+2017-10-12 04:25:05 +0000  /var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/SocketRocket.framework.dSYM/Contents/Resources/Dwarf/SocketRocket [armv7, 0.029881 seconds]:
+/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/SocketRocket.framework.dSYM/Contents/Resources/Dwarf/SocketRocket [arm64, 0.029881 seconds]:
+2017-10-12 04:25:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-10-12 04:25:05 +0000  Processing symbols for TestFramework.app
+2017-10-12 04:25:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app' '--link-dest' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV'
+2017-10-12 04:25:05 +0000  building file list ... 
+2017-10-12 04:25:05 +0000   0 files...2017-10-12 04:25:05 +0000  29 files to consider
+2017-10-12 04:25:05 +0000  TestFramework.app/
+2017-10-12 04:25:05 +0000  TestFramework.app/Base.lproj/
+TestFramework.app/Base.lproj/LaunchScreen.storyboardc/
+2017-10-12 04:25:05 +0000  TestFramework.app/Base.lproj/Main.storyboardc/
+TestFramework.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/
+TestFramework.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/
+TestFramework.app/Frameworks/
+TestFramework.app/Frameworks/SocketRocket.framework/
+TestFramework.app/Frameworks/SocketRocket.framework/_CodeSignature/
+TestFramework.app/_CodeSignature/
+2017-10-12 04:25:05 +0000  
+2017-10-12 04:25:05 +0000  sent 1.11K bytes  received 80 bytes  2.38K bytes/sec
+total size is 705.92K  speedup is 594.46
+2017-10-12 04:25:05 +0000  /usr/bin/rsync exited with 0
+2017-10-12 04:25:05 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/dSYMs/' '--link-dest' '/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/dSYMs/' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV'
+2017-10-12 04:25:05 +0000  building file list ... 
+2017-10-12 04:25:05 +0000   0 files...2017-10-12 04:25:05 +0000  13 files to consider
+2017-10-12 04:25:05 +0000  ./
+2017-10-12 04:25:05 +0000  SocketRocket.framework.dSYM/
+SocketRocket.framework.dSYM/Contents/
+SocketRocket.framework.dSYM/Contents/Resources/
+SocketRocket.framework.dSYM/Contents/Resources/DWARF/
+TestFramework.app.dSYM/
+TestFramework.app.dSYM/Contents/
+TestFramework.app.dSYM/Contents/Resources/
+TestFramework.app.dSYM/Contents/Resources/DWARF/
+2017-10-12 04:25:05 +0000  
+2017-10-12 04:25:05 +0000  sent 489 bytes  received 98 bytes  1.15K bytes/sec
+total size is 3.52M  speedup is 6290.85
+2017-10-12 04:25:05 +0000  /usr/bin/rsync exited with 0
+2017-10-12 04:25:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Symbols' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/TestFramework.app.dSYM/Contents/Resources/Dwarf/TestFramework'
+2017-10-12 04:25:05 +0000  /var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/TestFramework.app.dSYM/Contents/Resources/Dwarf/TestFramework [armv7, 0.026450 seconds]:
+/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/TestFramework.app.dSYM/Contents/Resources/Dwarf/TestFramework [arm64, 0.026450 seconds]:
+2017-10-12 04:25:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionAppThinningStep
+2017-10-12 04:25:05 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionODRStep
+2017-10-12 04:25:05 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-10-12 04:25:05 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe3b8c5edc0 'org.cocoapods.SocketRocket' '<DVTFilePath:0x7fe3b63a0810:'/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app/Frameworks/SocketRocket.framework'>'>
+2017-10-12 04:25:05 +0000  Running /usr/bin/xattr '-cr' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app'
+2017-10-12 04:25:06 +0000  /usr/bin/xattr exited with 0
+2017-10-12 04:25:06 +0000  Processing step: IDEDistributionCodesignStep
+2017-10-12 04:25:06 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe3b8c5edc0 'org.cocoapods.SocketRocket' '<DVTFilePath:0x7fe3b63a0810:'/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app/Frameworks/SocketRocket.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3b7713030>: {
+}
+2017-10-12 04:25:06 +0000  Entitlements for <IDEDistributionItem: 0x7fe3b8c5edc0 'org.cocoapods.SocketRocket' '<DVTFilePath:0x7fe3b63a0810:'/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app/Frameworks/SocketRocket.framework'>'>: {
+}
+2017-10-12 04:25:06 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe3b8c5edc0 'org.cocoapods.SocketRocket' '<DVTFilePath:0x7fe3b63a0810:'/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app/Frameworks/SocketRocket.framework'>'> to: /var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/entitlementsP1qNL5
+2017-10-12 04:25:06 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5B3ABCC745DBA77AFA4167BA399D847FA06E7B69' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/entitlementsP1qNL5' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app/Frameworks/SocketRocket.framework'
+2017-10-12 04:25:06 +0000  /var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app/Frameworks/SocketRocket.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SocketRocket]
+2017-10-12 04:25:06 +0000  /usr/bin/codesign exited with 0
+2017-10-12 04:25:06 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe3b722ffd0 'com.xiaoi.poc' '<DVTFilePath:0x7fe3b6482990:'/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe3b76eb840>: {
+}
+2017-10-12 04:25:06 +0000  Entitlements for <IDEDistributionItem: 0x7fe3b722ffd0 'com.xiaoi.poc' '<DVTFilePath:0x7fe3b6482990:'/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app'>'>: {
+    "application-identifier" = "YRAGDN28AR.com.xiaoi.poc";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = YRAGDN28AR;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "YRAGDN28AR.com.xiaoi.poc"
+    );
+}
+2017-10-12 04:25:06 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe3b722ffd0 'com.xiaoi.poc' '<DVTFilePath:0x7fe3b6482990:'/Users/miaoxingxing/Library/Developer/Xcode/Archives/2017-10-12/浦发POC 2017-10-12 12.23.xcarchive/Products/Applications/TestFramework.app'>'> to: /var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/entitlementsnHPLAw
+2017-10-12 04:25:06 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '5B3ABCC745DBA77AFA4167BA399D847FA06E7B69' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/entitlementsnHPLAw' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app'
+2017-10-12 04:25:06 +0000  /var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app: replacing existing signature
+2017-10-12 04:25:06 +0000  /var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root/Payload/TestFramework.app: signed app bundle with Mach-O universal (armv7 arm64) [com.xiaoi.poc]
+2017-10-12 04:25:06 +0000  /usr/bin/codesign exited with 0
+2017-10-12 04:25:06 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-10-12 04:25:06 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-12 04:25:06 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-12 04:25:06 +0000  Processing step: IDEDistributionCreateIPAStep
+2017-10-12 04:25:06 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Symbols' '--link-dest' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root'
+2017-10-12 04:25:06 +0000  building file list ... 
+2017-10-12 04:25:06 +0000   0 files...2017-10-12 04:25:06 +0000  5 files to consider
+2017-10-12 04:25:06 +0000  Symbols/
+2017-10-12 04:25:06 +0000  
+2017-10-12 04:25:06 +0000  sent 305 bytes  received 26 bytes  662.00 bytes/sec
+total size is 378.79K  speedup is 1171.84
+2017-10-12 04:25:06 +0000  /usr/bin/rsync exited with 0
+2017-10-12 04:25:06 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root' '/var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Packages/浦发POC.ipa'
+2017-10-12 04:25:06 +0000  >>> Copying /var/folders/6z/76902hb92w78y_h05605w8cr0000gn/T/XcodeDistPipeline.UsV/Root 
+2017-10-12 04:25:06 +0000  copying file ./Payload/TestFramework.app/_CodeSignature/CodeResources ... 
+2017-10-12 04:25:06 +0000  7635 bytes for ./Payload/TestFramework.app/_CodeSignature/CodeResources
+2017-10-12 04:25:06 +0000  copying file ./Payload/TestFramework.app/archived-expanded-entitlements.xcent ... 
+364 bytes for ./Payload/TestFramework.app/archived-expanded-entitlements.xcent
+copying file ./Payload/TestFramework.app/Assets.car ... 
+2017-10-12 04:25:06 +0000  34152 bytes for ./Payload/TestFramework.app/Assets.car
+2017-10-12 04:25:06 +0000  copying file ./Payload/TestFramework.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2017-10-12 04:25:06 +0000  1791 bytes for ./Payload/TestFramework.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/TestFramework.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-10-12 04:25:06 +0000  258 bytes for ./Payload/TestFramework.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/TestFramework.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Payload/TestFramework.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2017-10-12 04:25:06 +0000  copying file ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2017-10-12 04:25:06 +0000  4657 bytes for ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+2017-10-12 04:25:06 +0000  copying file ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2017-10-12 04:25:06 +0000  4778 bytes for ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+copying file ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2017-10-12 04:25:06 +0000  258 bytes for ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
+2017-10-12 04:25:06 +0000  964 bytes for ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+copying file ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+964 bytes for ./Payload/TestFramework.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+copying file ./Payload/TestFramework.app/embedded.mobileprovision ... 
+2017-10-12 04:25:06 +0000  9430 bytes for ./Payload/TestFramework.app/embedded.mobileprovision
+2017-10-12 04:25:06 +0000  copying file ./Payload/TestFramework.app/Frameworks/SocketRocket.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/TestFramework.app/Frameworks/SocketRocket.framework/_CodeSignature/CodeResources
+copying file ./Payload/TestFramework.app/Frameworks/SocketRocket.framework/Info.plist ... 
+2017-10-12 04:25:06 +0000  745 bytes for ./Payload/TestFramework.app/Frameworks/SocketRocket.framework/Info.plist
+copying file ./Payload/TestFramework.app/Frameworks/SocketRocket.framework/SocketRocket ... 
+2017-10-12 04:25:06 +0000  355168 bytes for ./Payload/TestFramework.app/Frameworks/SocketRocket.framework/SocketRocket
+2017-10-12 04:25:06 +0000  copying file ./Payload/TestFramework.app/icon.jpeg ... 
+2017-10-12 04:25:06 +0000  44297 bytes for ./Payload/TestFramework.app/icon.jpeg
+copying file ./Payload/TestFramework.app/Info.plist ... 
+2017-10-12 04:25:06 +0000  1286 bytes for ./Payload/TestFramework.app/Info.plist
+copying file ./Payload/TestFramework.app/PkgInfo ... 
+8 bytes for ./Payload/TestFramework.app/PkgInfo
+copying file ./Payload/TestFramework.app/TestFramework ... 
+2017-10-12 04:25:06 +0000  281536 bytes for ./Payload/TestFramework.app/TestFramework
+2017-10-12 04:25:06 +0000  copying file ./Symbols/25DE6791-9350-39B7-91C5-A9049745F177.symbols ... 
+2017-10-12 04:25:06 +0000  98280 bytes for ./Symbols/25DE6791-9350-39B7-91C5-A9049745F177.symbols
+copying file ./Symbols/8FB44AB3-9EED-3028-A8AD-B3C9E8974C83.symbols ... 
+2017-10-12 04:25:06 +0000  79832 bytes for ./Symbols/8FB44AB3-9EED-3028-A8AD-B3C9E8974C83.symbols
+copying file ./Symbols/D3877D0D-2BC4-324D-859C-B0E942A82970.symbols ... 
+2017-10-12 04:25:06 +0000  135736 bytes for ./Symbols/D3877D0D-2BC4-324D-859C-B0E942A82970.symbols
+copying file ./Symbols/F607F7C9-7B8D-353E-9CB1-E86CA153CBAE.symbols ... 
+2017-10-12 04:25:06 +0000  74032 bytes for ./Symbols/F607F7C9-7B8D-353E-9CB1-E86CA153CBAE.symbols
+2017-10-12 04:25:06 +0000  /usr/bin/ditto exited with 0
+2017-10-12 04:25:06 +0000  Processing step: IDEDistributionCreateManifestStep
+2017-10-12 04:25:06 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

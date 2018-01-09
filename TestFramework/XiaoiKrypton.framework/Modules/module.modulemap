@@ -1,0 +1,6 @@
+framework module XiaoiKrypton {
+  umbrella header "XiaoiKrypton.h"
+
+  export *
+  module * { export * }
+}
